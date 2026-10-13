@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="یک صفحه وب ساده و آماده انتشار با GitHub Pages">
+  <title>صفحه اول من</title>
+  <style>
+    :root { color-scheme: light; --ink:#172033; --muted:#667085; --accent:#635bff; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; min-height: 100vh; display: grid; place-items: center;
+      padding: 24px; font-family: Tahoma, Arial, sans-serif; color: var(--ink);
+      background: radial-gradient(circle at top right, #e8e7ff, transparent 42%),
+                  linear-gradient(135deg, #f8fafc, #eef2ff);
+    }
+    main {
+      width: min(680px, 100%); padding: clamp(28px, 6vw, 56px);
+      text-align: center; background: rgba(255,255,255,.88);
+      border: 1px solid #e7e9f3; border-radius: 28px;
+      box-shadow: 0 24px 70px rgba(31, 41, 85, .10);
+    }
+    .tag { display:inline-block; padding:8px 13px; border-radius:999px;
+      background:#eeedff; color:var(--accent); font-size:13px; font-weight:bold; }
+    h1 { margin:22px 0 14px; font-size:clamp(30px, 6vw, 46px); }
+    p { margin:0 auto; max-width:470px; color:var(--muted); line-height:2; }
+    a {
+      display:inline-block; margin-top:28px; padding:13px 22px; border-radius:12px;
+      background:var(--accent); color:white; text-decoration:none; font-weight:bold;
+      transition:transform .2s, opacity .2s;
+    }
+    a:hover { transform:translateY(-2px); opacity:.92; }
+    footer { margin-top:34px; color:#98a2b3; font-size:12px; }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="tag">اولین پروژه من با GitHub Pages</span>
+    <h1>سلام، به صفحه من خوش اومدی 👋</h1>
+    <p>
+      این یک صفحه HTML ساده و واکنش‌گراست. می‌تونی متن‌ها، رنگ‌ها و لینک این صفحه رو
+      تغییر بدی و بعد با GitHub Pages به‌صورت رایگان منتشرش کنی.
+    </p>
+    <a href="https://github.com/" target="_blank" rel="noopener noreferrer">ورود به GitHub</a>
+    <footer>ساخته‌شده با HTML و CSS</footer>
+  </main>
+</body>
+</html>
